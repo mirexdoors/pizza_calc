@@ -1,26 +1,22 @@
 <template>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite"/>
+  <Header />
+  <CalcForm />
+  <ResultOutput />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent } from 'vue';
+import Header from './components/common/Header.vue';
+import CalcForm from './components/CalcForm.vue';
+import ResultOutput from './components/ResultOutput.vue';
+
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    CalcForm,
+    ResultOutput,
   }
 })
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
