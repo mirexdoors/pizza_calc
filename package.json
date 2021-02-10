@@ -2,9 +2,9 @@
   "name": "pizza_calc",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "serve": "vite preview",
     "build": "vuedx-typecheck . && vite build",
-    "serve": "vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "vue": "^3.0.5"
