@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import { mount } from '@cypress/vue';
-import Header from '../../src/components/common/Header.vue';
+import Header from '../../src/components/common/PizzaHeader.vue';
 
 describe('Header', () => {
    it('renders header component', () => {
