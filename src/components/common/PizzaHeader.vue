@@ -1,6 +1,6 @@
 <template>
- <header class="flex items-center justify-center py-8 bg-orange">
-   <h1 class="font-bold text-4xl uppercase  text-current dark">Pizza Calc</h1>
+ <header class="header">
+   <h1 class="header__text">Pizza Calc</h1>
  </header>
 </template>
 
@@ -9,3 +9,13 @@ export default {
 name: "Header",
 }
 </script>
+
+<style lang="scss" scoped>
+    .header {
+        &__text {
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: normal;
+        }
+    }
+</style>

@@ -162,10 +162,6 @@
 			&__text {
 				text-transform: uppercase;
 				font-size: 2rem;
-				text-shadow: 0px 1px 0px #b2a98f,
-				0 4px 0 rgba(0, 0, 0, 0.15),
-				0px 8px 2px rgba(0, 0, 0, 0.1),
-				0 0 0 rgba(0, 0, 0, 0.1);
 			}
 		}
 	}
