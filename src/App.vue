@@ -1,10 +1,8 @@
 <template>
   <Preloader v-if="state.isLoading" />
-  <div
-      v-else
-      class="min-h-screen">
+  <div v-else>
     <PizzaHeader />
-    <CalcForm class="bg-gray"/>
+    <CalcForm />
     <ResultOutput/>
   </div>
 </template>
@@ -34,7 +32,7 @@ export default {
     onMounted(() => {
       setTimeout(() => {
         state.isLoading = false;
-      }, 1000);
+      }, 1500);
     });
     return {state}
   },
@@ -42,9 +40,10 @@ export default {
 </script>
 
 <style lang="scss">
-  $roni: #cc333f;
-
   body {
-    background: radial-gradient(circle at center, $roni, darken($roni, 20%));
+    font-family: 'Fredoka One';
+    background: $roni;
+    letter-spacing: 4px;
+    color: $cheese;
   }
 </style>

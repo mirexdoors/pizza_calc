@@ -3,6 +3,7 @@
       v-model="value"
       :placeholder="placeholder"
       type="text"
+      class="text-input"
   />
 </template>
 
@@ -21,3 +22,17 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+  .text-input {
+    height: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 4px solid $cheese;
+    background: #bbb083;
+    color:  darken($roni, 15%);
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 20px;
+    width: 80px;
+  }
+</style>

@@ -25,13 +25,8 @@
   }
 </script>
 
-<style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+<style lang="scss" scoped>
 	$number: 12;
-	$cheese: #ffdc73;
-	$crust: #bbb083;
-	$roni: #cc333f;
 
 	@mixin size($h: 100%, $w: 100%) {
 		height: $h;
@@ -165,11 +160,8 @@
 			gap: 3rem;
 
 			&__text {
-				font-family: 'Fredoka One';
-				color: $cheese;
 				text-transform: uppercase;
 				font-size: 2rem;
-				letter-spacing: 4px;
 				text-shadow: 0px 1px 0px #b2a98f,
 				0 4px 0 rgba(0, 0, 0, 0.15),
 				0px 8px 2px rgba(0, 0, 0, 0.1),
