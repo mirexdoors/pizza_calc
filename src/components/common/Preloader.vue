@@ -1,6 +1,6 @@
 <template>
 	<div class="preloader">
-		<div class="preloader__text">pizza calc</div>
+		<PizzaTitle />
 		<div class="pizza">
 			<div class="slice"></div>
 			<div class="slice"></div>
@@ -19,9 +19,12 @@
 	</div>
 </template>
 
-<script>
+<script lang="ts">
+  import PizzaTitle from "./PizzaTitle.vue";
+
   export default {
-    name: "Preloader"
+    name: "Preloader",
+    components: {PizzaTitle},
   }
 </script>
 
@@ -158,6 +161,7 @@
 			justify-content: center;
 			align-items: center;
 			gap: 3rem;
+			height: 100vh;
 
 			&__text {
 				text-transform: uppercase;

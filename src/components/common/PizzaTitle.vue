@@ -1,13 +1,11 @@
-<template>
-
+<template functional>
+	<h1 class="title">pizza calc</h1>
 </template>
 
-<script>
-  export default {
-    name: "PizzaTitle"
-  }
-</script>
-
 <style scoped>
-
+	.title {
+		text-transform: uppercase;
+		font-size: 2rem;
+		font-weight: normal;
+	}
 </style>

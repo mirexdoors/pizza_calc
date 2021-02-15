@@ -41,13 +41,14 @@ export default {
 
 <style lang="scss">
   body {
-    font-family: 'Fredoka One';
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
     background: $roni;
     letter-spacing: 4px;
     color: $cheese;
-    text-shadow: 0px 1px 0px #b2a98f,
+    text-shadow: 0 1px 0 #b2a98f,
     0 4px 0 rgba(0, 0, 0, 0.15),
-    0px 8px 2px rgba(0, 0, 0, 0.1),
+    0 8px 2px rgba(0, 0, 0, 0.1),
     0 0 0 rgba(0, 0, 0, 0.1);
   }
 </style>
